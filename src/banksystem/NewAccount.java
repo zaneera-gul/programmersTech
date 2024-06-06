@@ -15,6 +15,7 @@ public class NewAccount extends javax.swing.JFrame {
      */
     public NewAccount() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -286,7 +287,7 @@ public class NewAccount extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(85, 85, 85)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(76, 76, 76))
+                .addGap(72, 72, 72))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel10)
